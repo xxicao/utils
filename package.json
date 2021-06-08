@@ -2,8 +2,7 @@
   "name": "@xxicao/utils",
   "version": "1.0.0",
   "description": "front tools library",
-  "main": "dist/tool.cjs.js",
-  "module": "dist/tool.esm.js",
+  "main": "dist/utils.min.js",
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.14.3",
     "core-js": "^3.14.0"

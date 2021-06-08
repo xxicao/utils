@@ -10,9 +10,7 @@ var pkg = require('./package.json')
 export default {
   input: 'src/main.js',
   output: [
-    { file: pkg.main, format: 'cjs', name:'tools' },
-    { file: pkg.module, format: 'es', name:'tools' },
-    { file: pkg.module, format: 'umd', name:'tools' }
+    { file: pkg.main, format: 'umd', name:'utils' }
   ],
   plugins: [
     resolve(),

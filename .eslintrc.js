@@ -10,6 +10,7 @@ module.exports = {
       "SharedArrayBuffer": "readonly",
       "ENV": true
   },
+  
   "parserOptions": {
       "ecmaVersion": 2018,
       "sourceType": "module"
