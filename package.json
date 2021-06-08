@@ -1,0 +1,26 @@
+{
+  "name": "@xxicao/utils",
+  "version": "1.0.0",
+  "description": "front tools library",
+  "main": "dist/tool.cjs.js",
+  "module": "dist/tool.esm.js",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "core-js": "^3.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "rollup": "^2.51.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "MIT"
+}
