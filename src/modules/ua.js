@@ -1,4 +1,4 @@
-module.exports = {
+export default{
   isPC(){
     let u = window.navigator.userAgent;
     let Agents = ['Android', 'iPhone', 'webOS', 'BlackBerry', 'SymbianOS', 'Windows Phone', 'iPad', 'iPod'];

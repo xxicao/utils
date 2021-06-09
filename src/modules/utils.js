@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   bigNumberAdd(a, b){
     const checkNum = num => typeof num === 'string' && !Number.isNaN(Number(num))
     if(!checkNum(a) || !checkNum(b)) return

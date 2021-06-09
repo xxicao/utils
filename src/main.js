@@ -1,5 +1,5 @@
-import * as cookie from './modules/cookie';
-import * as ua from './modules/ua';
-import * as utils from './modules/utils';
+import cookie from './modules/cookie';
+import ua from './modules/ua';
+import utils from './modules/utils';
 
 export default {...cookie,...ua,...utils}

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   setCookie(name,value,day){
     let Days = day || 30;
     let exp = new Date();
