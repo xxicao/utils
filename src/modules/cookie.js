@@ -6,11 +6,13 @@ export default {
     document.cookie = name + '='+ escape (value) + ';expires=' + exp.toGMTString();
   },
   getCookie(name){
-    var cname = name + '=';
-    var ca = document.cookie.split(';');
-    for(var i=0; i<ca.length; i++){
-      var c = ca[i].trim();
-      if (c.indexOf(cname)==0) return c.substring(cname.length,c.length);
+    let cname = name + '=';
+    let cookieArr = document.cookie.split(';');
+    for(let i = 0; i< cookieArr.length; i++){
+      let c = cookieArr[i].trim();
+      if (c.indexOf(cname) == 0){
+        return c.substring(cname.length,c.length);
+      }
     }
     return '';
   },
