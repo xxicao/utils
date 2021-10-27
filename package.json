@@ -1,7 +1,12 @@
 {
   "name": "@xxicao/utils",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "xxicao front utils library",
+  "keywords": [
+    "xxicao",
+    "utils",
+    "tools"
+  ],
   "main": "dist/bundle.min.js",
   "module": "dist/bundle.esm.js",
   "devDependencies": {
