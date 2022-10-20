@@ -19,11 +19,15 @@
 - dateFormat(timestamp, ?format)：日期格式化'yyyy-MM-dd hh:mm:ss'
 - debounce(fn, delay)：防抖，delay默认300
 - throttle(fn, interval)：节流，interval默认300
+- curry(fn, ?arg)：函数柯里化
 - preloadImage(url)：预加载Image
 - injectScript(src)：动态注入JS
 - injectCss(src)：动态注入CSS
 - fullScreen(DOM)：进入全屏
 - exitFullScreen(DOM)：退出全屏
+
+#### Events
+- EventEmitter: 同Node.js events 模块用法
 
 ### Usage
 #### import
