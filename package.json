@@ -1,0 +1,59 @@
+{
+  "name": "@xxicao/utils",
+  "version": "1.3.0",
+  "description": "前端常用工具方法库，轻量、零依赖，开箱即用",
+  "keywords": [
+    "xxicao",
+    "utils",
+    "tools",
+    "cookie",
+    "formatDate",
+    "debounce",
+    "throttle",
+    "deepClone",
+    "formatMoney",
+    "uuid",
+    "clipboard",
+    "url",
+    "number"
+  ],
+  "main": "dist/bundle.min.js",
+  "module": "dist/bundle.esm.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxicao/utils.git"
+  },
+  "homepage": "https://github.com/xxicao/utils#readme",
+  "bugs": {
+    "url": "https://github.com/xxicao/utils/issues"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "lint": "eslint src/",
+    "lintfix": "eslint . --fix",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "author": "xxicao",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.5",
+    "@rollup/plugin-babel": "^7.0.0",
+    "@rollup/plugin-commonjs": "^29.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "eslint": "^8.57.1",
+    "jsdom": "^25.0.1",
+    "rollup": "^4.60.4",
+    "vitest": "^2.1.9"
+  },
+  "dependencies": {
+    "events": "^3.3.0"
+  }
+}
